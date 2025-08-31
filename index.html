@@ -70,5 +70,25 @@
         <img src="4.png" id="product-img" class="image" />
       </button>
     </div>
+    <script>
+      const btn1 = document.querySelector(".btn-1");
+      const btn2 = document.querySelector(".btn-2");
+      const btn3 = document.querySelector(".btn-3");
+      const btn4 = document.querySelector(".btn-4");
+      const mainImage = document.querySelector(".main-image");
+
+      btn1.addEventListener("click", function () {
+        mainImage.src = "1.png";
+      });
+      btn2.addEventListener("click", function () {
+        mainImage.src = "2.png";
+      });
+      btn3.addEventListener("click", function () {
+        mainImage.src = "3.png";
+      });
+      btn4.addEventListener("click", function () {
+        mainImage.src = "4.png";
+      });
+    </script>
   </body>
 </html>
